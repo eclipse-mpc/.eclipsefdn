@@ -1,6 +1,6 @@
 local orgs = import 'vendor/otterdog-defaults/otterdog-defaults.libsonnet';
 
-orgs.newOrg('eclipse-mpc') {
+orgs.newOrg('technology.packaging.mpc', 'eclipse-mpc') {
   settings+: {
     description: "",
     name: "Eclipse MPC",
