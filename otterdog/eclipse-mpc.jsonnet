@@ -28,8 +28,7 @@ orgs.newOrg('technology.packaging.mpc', 'eclipse-mpc') {
       default_branch: "master",
       delete_branch_on_merge: false,
       dependabot_security_updates_enabled: true,
-      description: "The Eclipse Marketplace Client provides a rich client for installing solutions
-listed on Eclipse Marketplace",
+      description: "The Eclipse Marketplace Client provides a rich client for installing solutions listed on Eclipse Marketplace",
       homepage: "https://projects.eclipse.org/projects/technology.packaging.mpc",
       squash_merge_commit_message: "PR_BODY",
       squash_merge_commit_title: "PR_TITLE",
